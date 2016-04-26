@@ -8,7 +8,8 @@ public class Mainproduksi {
         Scanner in = new Scanner(System.in);
          Produksi jaket = new Produksi();
          int a[] = new int[3];
-         System.out.println("======CV.Labkomdas======");
+         System.out.println("========CV.Labkomdas========");
+         System.out.println(" Jl.MT HARYONO NO.24 MALANG");
          for (int i = 0; i < 3; i++) {
              System.out.print("Masukkan Jumlah "+jaket.produk[i]+" : ");
              a[i]=in.nextInt();
