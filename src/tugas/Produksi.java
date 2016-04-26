@@ -23,11 +23,14 @@ public class Produksi {
     }
 
     public void cetakHarga() {
+        System.out.println("========CV.Labkomdas========");
+        System.out.println(" Jl.MT HARYONO NO.24 MALANG");
+        System.out.println("============================");
         System.out.println("Nama    Jumlah    Harga");
         for (int i = 0; i < 3; i++) {
             System.out.println(produk[i] + "    " + jumlah[i] + "      Rp." + harga[i]);
         }
-        System.out.println("=======================================");
+        System.out.println("============================");
         System.out.println("Total Harga: Rp." + bayar);
     }
 }
