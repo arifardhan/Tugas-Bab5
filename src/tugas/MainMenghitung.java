@@ -63,9 +63,9 @@ public class MainMenghitung {
                 case 5:
                     System.out.println();
                     System.out.println("/ PENYEDERHANAAN /");
-                    System.out.print("masukkan nilai 1 : ");
+                    System.out.print("masukkan pembilang : ");
                     int a = in.nextInt();
-                    System.out.print("masukkan nilai 2 : ");
+                    System.out.print("masukkan penyebut  : ");
                     int b = in.nextInt();
                     hitung.sederhana(a, b);
                     System.out.println();
