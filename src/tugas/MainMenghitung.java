@@ -8,7 +8,7 @@ public class MainMenghitung {
         Scanner in = new Scanner(System.in);
         int pilih = 0;
         while (pilih != 6) {
-            System.out.println("++++    Menu    ++++");
+            System.out.println("++++   =Menu=   ++++");
             System.out.println("(1) Penjumlahan");
             System.out.println("(2) Pengurangan");
             System.out.println("(3) Perkalian");
